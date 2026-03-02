@@ -1,0 +1,12 @@
+FROM maven:3.9.8-eclipse-temurin-21
+
+WORKDIR /workspace/api
+
+# Para que DevTools detecte cambios más fiable en volúmenes
+ENV SPRING_DEVTOOLS_RESTART_POLL_INTERVAL=1000
+ENV SPRING_DEVTOOLS_RESTART_QUIET_PERIOD=400
+
+EXPOSE 8080
+
+# En dev, vamos a montar el código con volume y correr mvn spring-boot:run
+CMD ["mvn", "spring-boot:run", "-DskipTests"]

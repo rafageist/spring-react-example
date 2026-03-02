@@ -1,0 +1,55 @@
+.container {
+  padding: 24px;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.canvasContainer {
+  border: 2px solid #e8e8e8;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8f9fa;
+  min-height: 600px;
+}
+
+.stage {
+  cursor: grab;
+}
+
+.stage:active {
+  cursor: grabbing;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.infoPanel {
+  position: absolute;
+  right: 24px;
+  top: 120px;
+  z-index: 100;
+  max-width: 280px;
+}
+
+.legend {
+  margin-top: 16px;
+  padding: 16px;
+  background: #fafafa;
+  border-radius: 8px;
+}
