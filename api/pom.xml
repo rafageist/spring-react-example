@@ -10,10 +10,10 @@
     <relativePath/>
   </parent>
 
-  <groupId>com.example</groupId>
-  <artifactId>api</artifactId>
+  <groupId>com.rafageist</groupId>
+  <artifactId>wms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>api</name>
+  <name>wms</name>
 
   <properties>
     <java.version>21</java.version>
